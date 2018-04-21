@@ -1,0 +1,59 @@
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 180%;
+	color: #0092DC;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	padding-top: 25px;
+}
+
+#titleDetails{
+	justify-content: center;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.cardHeader{
+	position: relative;
+	font-weight: bold;
+	font-size: 120%;
+	margin-top: 5px;
+	left: 25px;
+}
+
+.cardDescription{
+	margin-left: 100px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.cardBody{
+	min-height: 180px;
+	padding-left:20px;
+	padding-top: 0px;
+	height: auto;
+}
+
+.icon{
+	margin: 0;
+	position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(5%, 25%);
+}
+
+@media screen and (max-width: 500px){
+	.cardBody{
+		height: 180px;
+		overflow: auto;
+		padding-top: 0px;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	.cardBody{
+		height: 250px;
+	}
+}

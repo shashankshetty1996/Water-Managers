@@ -1,0 +1,33 @@
+h3#contactTitle{
+	font-weight: bold;
+	color: #00ace6;
+	text-align:justify;
+	padding: 20px auto;
+}
+
+p#contactDetials{
+	font-weight: 500;
+	padding: 10px;
+	font-size: 32 px;
+}
+
+.map{
+	margin: 25px auto;
+}
+
+span#social-media-info{
+	font-size: 20px;
+	font-family: verdana;
+	color: #65B12F;
+}
+
+a.social-media-logo{
+	text-decoration: none;
+	color: inherit;
+}
+
+h3#googlemaptitle{
+	padding: 15px 0px 10px 25px;
+	color: #00903A;
+	font-weight: bold;
+}

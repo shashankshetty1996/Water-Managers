@@ -1,0 +1,36 @@
+header{
+	font-family: "BebasNeueRegular", Arial, sans-serif;
+	margin-top: 20px;
+}
+
+
+footer{
+	position: static;
+	background-color: #00ace6;
+	width: 100%;
+	color: white;
+	bottom: 0;
+	font-size: 24px;
+	height: 80px;
+	display: flex;
+    align-items: center;				/* Vertical center alignment */
+	justify-content: center;			/* Horizontal center alignment */
+}
+
+.footer-designer{
+	float: right;
+	font-size: 16px;
+	text-indent: 250px;
+	line-height: 50px;
+	padding-right: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    footer {
+        height: 200px;
+    }
+	
+	.footer-designer{
+		text-indent: 100px;
+	}
+}
